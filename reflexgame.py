@@ -38,6 +38,9 @@ while(round < 12):
     round += 1
 print('**********************************')
 print('*****  Game Over! *****')
-print(right_name +': ' + str(right_score) + left_name + ': ' + str(left_score))
-
-
+print(right_name +': ' + str(right_score) + '   ' + left_name + ': ' + str(left_score))
+if (right_score > left_score):
+    print(right_name + ' wins!')
+else:
+    print(left_name + ' wins!')
+    
